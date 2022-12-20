@@ -18,7 +18,7 @@ Strings = {
 
 -- Vehicle Durability --
 
---[[cfg = {
+cfg = {
 	deformationMultiplier = -1,					-- How much should the vehicle visually deform from a collision. Range 0.0 to 10.0 Where 0.0 is no deformation and 10.0 is 10x deformation. -1 = Don't touch. Visual damage does not sync well to other players.
 	deformationExponent = 0.4,					-- How much should the handling file deformation setting be compressed toward 1.0. (Make cars more similar). A value of 1=no change. Lower values will compress more, values above 1 it will expand. Dont set to zero or negative.
 	collisionDamageExponent = 0.5,				-- How much should the handling file deformation setting be compressed toward 1.0. (Make cars more similar). A value of 1=no change. Lower values will compress more, values above 1 it will expand. Dont set to zero or negative.
@@ -94,7 +94,7 @@ Config.MinusOne = true -- Leave this enabled if your coordinates grabber does no
 Config.GenderNumbers = { -- No reason to touch these.
 	['male'] = 4,
 	['female'] = 5
-}--]]
+}
 
 -- Add some Peds!! --
 
